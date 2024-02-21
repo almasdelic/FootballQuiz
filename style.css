@@ -1,0 +1,55 @@
+body {
+    background-image: url(./img/stadium.jpg);
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(71, 72, 157);
+}
+
+.box {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.answers {
+    text-align: center;
+    color: #000;
+
+}
+
+.answer {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.answer:hover {
+    background-color: #e0e0e0;
+}
+
+#nextButtonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nextButton {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#nextButton:hover {
+    background-color: #45a049; 
+}
